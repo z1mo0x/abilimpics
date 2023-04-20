@@ -1,0 +1,97 @@
+/* карточки главных экспертов начало */
+
+.abx-expertcard_container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: stretch;
+    margin: 0 auto;
+    width: 100%; 
+    padding-bottom: 40px;   
+}
+
+.abx-expertcard_card {
+    width: 300px;
+    border: 1px solid rgba(0,0,0,.125);
+    border-radius: 5px;
+    background: #F2F2F2;
+    box-shadow: 0px 5px 5px rgb(0 0 0 / 20%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #212529;    
+    font-size: 16px;
+    margin: 15px;
+}
+
+.abx-expertcard_card-img {
+    margin-top: 30px;
+    width: 200px;    
+}
+
+.abx-expertcard_card-title {
+    margin: 20px 10px 0 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.abx-expertcard_card-txt {
+    margin: 20px 10px 0px 10px;
+    display: flex;
+    justify-content: center;   
+}
+
+.abx-expertcard_card-reg {
+    margin: 0px 10px 20px 10px;
+    display: flex;
+    justify-content: center;   
+}
+
+.abx-expertcard_card-p {
+    text-align: center;
+}
+
+/* карточки главных экспертов конец */
+
+/* таблица сертификатов начало */
+
+.abx_table_cert .table-experts__col{
+	width: 12%;
+}
+
+.abx_table_cert .table-experts__col:first-child{
+	width: 4%;
+}
+
+.abx_table_cert .table-experts__col:nth-child(8){
+	width: 4%;
+}
+
+.abx_table_cert_2 .table-experts__col{
+	width: 60%;
+}
+
+.abx_table_cert_2 .table-experts__col:first-child{
+	width: 4%;
+}
+
+/* таблица сертификатов конец */
+
+
+/* адаптивный таймер */
+
+@media (max-width: 680px) {
+
+	#timer-separator-87e4a6da0293f325777e99cad84dfe84-minutes, #timer-element-87e4a6da0293f325777e99cad84dfe84-minutes, #timer-separator-87e4a6da0293f325777e99cad84dfe84-secundes, #timer-element-87e4a6da0293f325777e99cad84dfe84-secundes {
+	display: none !important;
+	}
+	#timer87e4a6da0293f325777e99cad84dfe84 {
+	text-align: start !important;
+	min-width: 0 !important;
+	}
+	#timer-text-87e4a6da0293f325777e99cad84dfe84-days, #timer-text-87e4a6da0293f325777e99cad84dfe84-hours {
+	text-align: center !important;
+	}
+}
+
+/* адаптивный таймер */
